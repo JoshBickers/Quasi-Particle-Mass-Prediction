@@ -1,8 +1,8 @@
 # **Quasi-Particle Mass Prediction Using Deep Neural Networks**
 
 Team Members
-Joshua Bickers
-Jean Guma De La Vega
+Joshua Bickers,  
+Jean Guma De La Vega,  
 Ricardo Lopez
 
 ## **Introduction**
@@ -12,18 +12,18 @@ This project explores the prediction of quasi-particle masses in the quark-gluon
 We acknowledge the HotQCD and WB Lattice groups for providing the datasets. Special thanks to Dr. Zak and our colleagues for their guidance.
 
 Dependencies:
-Python 3.10
-TensorFlow
-Pandas
-Matplotlib
-NumPy
+Python 3.10,  
+TensorFlow,  
+Pandas,  
+Matplotlib,  
+NumPy,  
 
 The dataset consists of the following features:
-Temperature (T)
-Pressure (P)
-Energy Density (ε)
-Entropy Density (s)
-Trace Anomaly (D)
+Temperature (T),  
+Pressure (P),  
+Energy Density (ε),  
+Entropy Density (s),  
+Trace Anomaly (D),  
 
 ## **Results**
 The DNN model demonstrates acceptable accuracy, especially at lower temperature ranges. However, divergence occurs at higher temperatures due to limited dataset size and the complexity of QGP properties.
